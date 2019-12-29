@@ -5,6 +5,7 @@ output: main.o menu.o Gameplay.o Space.o Ocean.o Beach.o Forest.o Volcano.o
 
 main.o: main.cpp
 	$(CXX) -c main.cpp
+	
 menu.o: menu.hpp menu.cpp
 	$(CXX) -c menu.cpp
 
